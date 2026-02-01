@@ -1,9 +1,6 @@
 .app-hero {
     position: relative;
-  
-    /* MATCH IMAGE SIZE */
-    width: 1200px;
-    height: 400px;
+    width: cover;
   
     background-size: cover;
   
@@ -14,7 +11,6 @@
   
     color: white;
     text-align: center;
-    margin: 0 auto; 
   }
   
   /* Code generated with assistance from ChatGPT */
@@ -42,5 +38,6 @@
   .app-hero button {
     width: 125px;
     font-size: 18px;
+    margin-bottom: 15px;
 
   }

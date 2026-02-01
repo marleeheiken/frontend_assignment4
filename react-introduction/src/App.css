@@ -42,3 +42,27 @@
 .read-the-docs {
   color: #888;
 }
+
+.products-container {
+  display: flex;
+  gap: 20px;
+  padding: 40px 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cart-total {
+  color: #646cffaa;
+}
+.empty-cart {
+  background-color: lightgrey; 
+  border-radius: 8px;         
+  height: 75px;               
+  display: flex;        
+  justify-content: center;     
+  align-items: center;
+  font-size: 17px;
+  margin-bottom: 20px;                  
+  width: 100%;                 
+  box-sizing: border-box;  
+}
