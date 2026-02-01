@@ -14,3 +14,13 @@
 .product-image {
     width: 280px;
 }
+
+.product-details-link {
+    color: black;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.product-details-link:hover {
+    font-weight: bold;
+}

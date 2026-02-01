@@ -13,6 +13,8 @@ function ProductCard({ name, price, image, description, onAddToCart }) {
         <p>Price: ${price}</p>
         <p>{description}</p>
 
+        <a href="/product-details" className="product-details-link">Product Details</a> 
+        <br />
         <button onClick={onAddToCart}>
           Add to Cart
         </button>
