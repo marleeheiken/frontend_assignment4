@@ -1,0 +1,46 @@
+.app-hero {
+    position: relative;
+  
+    /* MATCH IMAGE SIZE */
+    width: 1200px;
+    height: 400px;
+  
+    background-size: cover;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    color: white;
+    text-align: center;
+    margin: 0 auto; 
+  }
+  
+  /* Code generated with assistance from ChatGPT */
+  .app-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Code generated with assistance from ChatGPT */
+  .app-hero > * {
+    position: relative;
+  }
+  
+  .app-hero h1 {
+    font-size: 54px;
+    margin-bottom: -15px;
+  }
+
+  .app-hero p {
+    font-size: 24px;
+  }
+
+  .app-hero button {
+    width: 125px;
+    font-size: 18px;
+
+  }
